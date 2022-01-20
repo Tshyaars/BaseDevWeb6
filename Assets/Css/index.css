@@ -1,0 +1,54 @@
+section{
+    text-align: center;
+    display: grid;
+    grid: 50px repeat(3,1fr)/1fr;
+    gap: 10px;
+    min-width: 400px;
+    width:90vw;
+    margin: 0 auto;
+}
+h2{
+    line-height: 50px;
+    color: #fff;
+    width: 90%;
+}
+article{
+    min-width: 300px;
+    width: 90%;
+    height: 170px;
+    text-align: justify;
+    border: 1px solid;
+    padding:10px 20px;
+    color: rgb(204, 204, 204);
+}
+h3{
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+header{
+    display: none;
+}
+@media screen and (min-width:640px) {
+    section{
+        grid: 50px 1fr / repeat(2,1fr);
+        gap: 10px;
+    }
+    h2{
+        grid-area: 1/1/2/3;
+    }
+}
+@media screen and (min-width:800px) {
+    header{
+        display: initial;
+    }
+}
+@media screen and (min-width:940px) {
+    section{
+        grid: 50px 1fr / repeat(3,1fr);
+        gap: 10px;
+    }
+    h2{
+        grid-area: 1/1/2/4;
+    }
+}

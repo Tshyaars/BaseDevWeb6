@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(48, 48, 48);
+}
+header{
+    text-align: center;
+    background-color: black;
+}
+h1{
+    line-height: 60px;
+    color: rgb(185, 185, 185);
+}
+h1::first-letter{
+    color: #fff;
+}
