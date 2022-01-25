@@ -17,3 +17,9 @@ h1{
 h1::first-letter{
     color: #fff;
 }
+nav a{
+    color: grey;
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+}
